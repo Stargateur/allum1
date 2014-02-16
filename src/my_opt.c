@@ -5,15 +5,15 @@
 ** Login   <antoine.plaskowski@epitech.eu>
 ** 
 ** Started on  Wed Feb 12 13:55:25 2014 Antoine Plaskowski
-** Last update Fri Feb 14 16:00:48 2014 Antoine Plaskowski
+** Last update Sun Feb 16 23:24:22 2014 Antoine Plaskowski
 */
 
-#include		<stdlib.h>
-#include		<term.h>
-#include		<time.h>
-#include		"my_termcaps.h"
-#include		"my_allum1.h"
-#include		"my_str.h"
+#include	<stdlib.h>
+#include	<term.h>
+#include	<time.h>
+#include	"my_termcaps.h"
+#include	"my_allum1.h"
+#include	"my_str.h"
 
 char		*my_found_str(char **argv, const char *str)
 {
