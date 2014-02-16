@@ -5,10 +5,10 @@
 ** Login   <plasko_a@epitech.net>
 ** 
 ** Started on  Wed Feb  5 11:44:20 2014 Antoine Plaskowski
-** Last update Thu Feb 13 18:40:17 2014 Antoine Plaskowski
+** Last update Sun Feb 16 23:04:18 2014 Antoine Plaskowski
 */
 
-#include       	<stdlib.h>
+#include	<stdlib.h>
 #include	"my_allum1.h"
 #include	"my_str.h"
 

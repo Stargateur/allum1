@@ -5,7 +5,7 @@
 ** Login   <plasko_a@epitech.net>
 ** 
 ** Started on  Wed Feb 12 13:05:57 2014 Antoine Plaskowski
-** Last update Wed Feb 12 13:08:20 2014 Antoine Plaskowski
+** Last update Sun Feb 16 23:03:36 2014 Antoine Plaskowski
 */
 
 #include		<stdlib.h>
@@ -14,12 +14,12 @@
 #include		"my_termcaps.h"
 #include		"my_str.h"
 
-long                     my_clear(void)
+long			my_clear(void)
 {
-  struct winsize        w;
-  char                  *cm;
-  char                  *espace;
-  long                   i;
+  struct winsize	w;
+  char			*cm;
+  char			*espace;
+  long			i;
 
   if (!(cm = my_tgetstr("cm")) || my_get_size(&w))
     return (1);

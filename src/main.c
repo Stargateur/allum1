@@ -5,7 +5,7 @@
 ** Login   <plasko_a@epitech.net>
 ** 
 ** Started on  Tue Nov  5 14:11:49 2013 Antoine Plaskowski
-** Last update Fri Feb 14 15:26:04 2014 Antoine Plaskowski
+** Last update Sun Feb 16 22:59:11 2014 Antoine Plaskowski
 */
 
 #include		<stdlib.h>
@@ -33,7 +33,7 @@ static long		my_init_term(char **argv, char **env)
 
 static long		my_init(char **argv, t_game *game)
 {
-  char          *str;
+  char			*str;
 
   if (game == NULL || argv == NULL)
     return (1);
@@ -41,7 +41,7 @@ static long		my_init(char **argv, t_game *game)
     return (1);
   if (my_level_ia(argv, game))
     return (1);
-    game->mode = 0;
+  game->mode = 0;
   if ((str = my_found_str(argv, "--mode=")) != NULL)
     game->mode = my_getnbr(str);
   if ((game->nbr_col = my_nbr_col(argv)) == 0 && game->mode == 0)

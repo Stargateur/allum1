@@ -5,19 +5,19 @@
 ** Login   <antoine.plaskowski@epitech.eu>
 ** 
 ** Started on  Tue Feb 11 05:00:46 2014 Antoine Plaskowski
-** Last update Wed Feb 12 19:28:21 2014 Antoine Plaskowski
+** Last update Sun Feb 16 23:00:58 2014 Antoine Plaskowski
 */
 
-#include		<stdlib.h>
-#include		<unistd.h>
-#include		"my_termcaps.h"
-#include		"my_allum1.h"
-#include		"my_str.h"
+#include	<stdlib.h>
+#include	<unistd.h>
+#include	"my_termcaps.h"
+#include	"my_allum1.h"
+#include	"my_str.h"
 
-long			my_aff_victory(t_game *game)
+long		my_aff_victory(t_game *game)
 {
-  char			*cm;
-  char			tmp[3];
+  char		*cm;
+  char		tmp[3];
 
   if (game == NULL)
     return (1);

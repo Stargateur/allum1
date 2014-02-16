@@ -5,7 +5,7 @@
 ** Login   <antoine.plaskowski@epitech.eu>
 ** 
 ** Started on  Sat Feb  8 06:12:32 2014 Antoine Plaskowski
-** Last update Wed Feb 12 18:59:12 2014 Antoine Plaskowski
+** Last update Sun Feb 16 23:02:08 2014 Antoine Plaskowski
 */
 
 #include	<stdlib.h>
@@ -69,7 +69,7 @@ long		my_remove_all(t_game *game)
 	    {
 	      data->allum[i] = 0;
 	      data->cur_all--;
-	    }
+           }
           i++;
         }
       data = data->next;
