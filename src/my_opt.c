@@ -5,7 +5,7 @@
 ** Login   <antoine.plaskowski@epitech.eu>
 ** 
 ** Started on  Wed Feb 12 13:55:25 2014 Antoine Plaskowski
-** Last update Sun Feb 16 23:24:22 2014 Antoine Plaskowski
+** Last update Tue Feb 24 22:54:35 2015 Antoine Plaskowski
 */
 
 #include	<stdlib.h>
@@ -42,6 +42,7 @@ long		my_help(char **argv)
       my_putstr("--map=None(path)\n", 2);
       my_putstr("--tc=1(0-1)\n", 2);
       my_putstr("--mode=0(0-1)\n", 2);
+      my_putstr("--level=2(0-2)\n", 2);
       return (1);
     }
   return (0);
